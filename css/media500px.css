@@ -6,6 +6,10 @@
         box-sizing: border-box;
     }
 
+    .container{
+        width: 100%;
+    }
+
     .hero_container{
         padding: 40px 0;
     }
@@ -76,6 +80,10 @@
         "card3"
         "card4"
         ;
+    }
+
+    .card_item{
+        padding: 10px;
     }
 
 
