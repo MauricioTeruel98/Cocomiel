@@ -6,6 +6,10 @@
         box-sizing: border-box;
     }
 
+    .container__product{
+        width: 100%;
+    }
+
     .hero_container{
         padding: 60px 0;
         grid-template-columns: 1fr;
@@ -56,6 +60,11 @@
         "card3"
         "card4"
         ;
+    }
+
+    .card_item{
+        padding: 10px;
+        margin: auto;
     }
 
     /*Footer*/
