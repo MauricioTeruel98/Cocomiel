@@ -50,8 +50,8 @@
     /*Card*/
 
     .card_container{
-        margin-left: 160px;
-        width: 50%;
+        margin-left: 9px;
+        width: 95%;
         grid-template-columns: 1fr;
         grid-template-rows: repeat(4,1fr);
         grid-template-areas: 
@@ -83,3 +83,28 @@
     }
 
 }
+
+@media screen and (max-width:920px) {
+    .card_container{
+        margin-left: 9px;
+        width: 95%;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(4,1fr);
+        grid-template-areas: 
+        "card1"
+        "card2"
+        "card3"
+        "card4"
+        ;
+    }
+
+    .container__product{
+        width: 100%;
+    }
+
+    .card_item{
+        padding: 10px;
+        margin: auto;
+    }
+}
+
