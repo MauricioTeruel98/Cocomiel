@@ -68,6 +68,7 @@ body {
 #menu-hamb {
     position: fixed;
     z-index: 1;
+    margin: -20px;
 }
 
 .icono-menu {
