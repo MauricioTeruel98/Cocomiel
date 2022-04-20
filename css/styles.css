@@ -328,7 +328,8 @@ body {
 /*Card*/
 
 .card {
-    background: #f2f2f25f;
+    background: #f2f2f268;
+    border-bottom: 2px solid #ccc;
 }
 
 .card_copy {
@@ -465,13 +466,24 @@ body {
     color: #000;
 }
 
+.footer::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100px;
+    background-color: #fff;
+    top: 0;
+    left: 0;
+    clip-path: polygon(100% 0, 0% 100%, 0 0);
+}
+
 /*Pagina Productos*/
 
 #navegacion-top {
     background: linear-gradient(61deg, rgba(255, 210, 207, 1) 0%, rgba(180, 215, 255, 1) 100%);
     position: fixed;
     width: 100%;
-    border-bottom: 2px solid #918484;
+    border-bottom: 2px solid #ccc;
 }
 
 #logo img {
