@@ -249,7 +249,13 @@ body {
     clip-path: polygon(100% 0, 0% 100%, 0 0);
 }
 
-
 @media screen and (max-width: 500px) {
+    .about_img {
+        width: 95%;
+    }
+
+    .container{
+        overflow: visible;
+    }
     
 }
