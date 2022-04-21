@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Poppins:wght@300;400&family=Shadows+Into+Light+Two&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -45,6 +47,7 @@ body {
     padding: 20px 50px;
     border: 3px solid #3c67e3;
     border-radius: 10px;
+    margin-top: 30px;
 }
 
 /*Menu hamb*/
@@ -386,19 +389,15 @@ body {
 }
 
 .card_title {
-    font-family: 'Dancing Script', cursive;
-    font-family: 'Poppins', sans-serif;
-    font-family: 'Shadows Into Light Two', cursive;
+    font-family: 'Amatic SC', cursive;
     text-align: center;
     margin: 10px 0;
-    font-size: 1.5rem;
+    font-size: 2rem;
 }
 
 .card_paragraph {
-    font-family: 'Dancing Script', cursive;
-    font-family: 'Poppins', sans-serif;
-    font-family: 'Shadows Into Light Two', cursive;
-    font-size: 25px;
+    font-family: 'Amatic SC', cursive;
+    font-size: 2.5rem;
     font-weight: 300;
     font-weight: bold;
     margin-bottom: 5px;
