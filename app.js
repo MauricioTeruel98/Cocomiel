@@ -5,13 +5,6 @@ iconoMenu.addEventListener('click', (e) => {
     //Alteramos estilos para el menu y body
     menu.classList.toggle('active');
     document.body.classList.toggle('opacity');
-    const rutaActual = e.target.getAttribute('src');
-
-    if(rutaActual == '/assets/hamb-icono.png'){
-        e.target.setAttribute('src', '/assets/hamb-icono.png')
-    }else{
-        e.target.setAttribute('src', '/assets/hamb-icono.png')
-    }
 
 });
 
