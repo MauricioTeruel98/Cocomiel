@@ -8,12 +8,16 @@ iconoMenu.addEventListener('click', (e) => {
     const rutaActual = e.target.getAttribute('src');
 
     if(rutaActual == '/assets/hamb-icono.png'){
-        e.target-setAttribute('src', '/assets/hamb-icono2.png')
+        e.target.setAttribute('src', '/assets/hamb-icono.png')
     }else{
-        e.target-setAttribute('src', '/assets/hamb-icono.png')
+        e.target.setAttribute('src', '/assets/hamb-icono.png')
     }
 
 });
+
+function cerrarMenu(){
+    menu.classList.add('active');
+}
 
 // Slider
 
