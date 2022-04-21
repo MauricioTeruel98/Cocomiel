@@ -7,7 +7,7 @@ iconoMenu.addEventListener('click', (e) => {
     document.body.classList.toggle('opacity');
     const rutaActual = e.target.getAttribute('src');
 
-    if(rutaActual == '/assets/hamb-icono.png'){
+    if(rutaActual == 'assets/hamb-icono.png'){
         e.target.setAttribute('src', 'assets/hamb-icono.png')
     }else{
         e.target.setAttribute('src', 'assets/hamb-icono.png')
