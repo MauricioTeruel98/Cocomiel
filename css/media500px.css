@@ -57,6 +57,12 @@
         width: 90%;
     }
 
+    .banner_name_product{
+        font-family: 'Sacramento', cursive;
+        font-size: 3rem;
+        margin: 20px 0;
+    }
+
     /*About*/
 
     .about{
@@ -121,5 +127,7 @@
         box-shadow: none;
         position: relative;
     }
+
+
     
 }
