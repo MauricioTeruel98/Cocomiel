@@ -153,7 +153,8 @@ body {
 }
 
 .hero_copy {
-    font-family: 'Sacramento', cursive;
+    text-align: center;
+    font-family: 'Amatic SC', cursive;
     font-size: 3rem;
     margin: 25px 0;
 }
