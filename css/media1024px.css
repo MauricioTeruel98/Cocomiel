@@ -50,14 +50,7 @@
     .card_container{
         margin-left: 70px;
         width: 700px;
-        grid-template-columns: 1fr;
-        grid-template-rows: repeat(4,1fr);
-        grid-template-areas: 
-        "card1 card2"
-        "card1 card2"
-        "card3 card4"
-        "card3 card4"
-        ;
+        grid-template-columns: repeat(2,1fr);
     }
 
     .container__plaza{
